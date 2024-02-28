@@ -62,7 +62,8 @@ class Converter:
                                      text="Help / Info",
                                      bg="#CC6600",
                                      fg=button_fg,
-                                     font=button_font, width=12)
+                                     font=button_font,
+                                     width=12)
         self.to_help_button.grid(row=1, padx=5, pady=5, column=0)
 
         self.to_history_button = Button(self.button_frame,
